@@ -10,4 +10,9 @@ export default defineConfig({
       },
     }),
   ],
+  server: {
+    allowedHosts: [
+      '.trycloudflare.com' // Allows any Cloudflare tunnel URL
+    ]
+  }
 })
